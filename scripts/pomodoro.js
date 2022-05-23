@@ -36,3 +36,4 @@ button.addEventListener("click", () => {
 
 
 // better to do list: https://freshman.tech/todo-list/
+// timer: https://css-tricks.com/how-to-create-an-animated-countdown-timer-with-html-css-and-javascript/
