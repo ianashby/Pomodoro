@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/main.css">
+    <script defer src="scripts/pomodoro.js"></script>
+    <title>Pomodoro Timer</title>
+</head>
+
+<body>
+    <div class="header">
+        <div id="logo">
+            <img src="/images/check2-all.svg" alt="Pomodoro Icon and Logo">
+            <h1>Pomodoro</h1>
+        </div>
+        
+    </div>
+    <hr>
+
+    <main>
+        <div class="timer">
+            <h2>Timer</h2>
+            <div id="circle-timer"></div>
+            <div id="timer-buttons">
+                <button>Pomodoro</button>
+                <button>Short Break</button>
+                <button>Long Break</button>
+            </div>
+            <button id="start">Start</button>
+        </div>
+        
+        <div class="todo">
+            <h2>Tasks</h2>
+            <div class="input">
+                <label for="task">Enter Task<br>
+                    <input type="text" id="task" placeholder="Enter Task" required></label>
+                <button type="submit" id="submit"><img src="/images/plus-circle.svg" alt="Add Task Icon"></button>
+            </div>
+            <div class="listcontainer">
+                <ul class="list">
+                </ul>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>
