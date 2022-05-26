@@ -17,7 +17,7 @@ button.addEventListener("click", () => {
         const checkBox = document.createElement('img');
 
         // create checkbox
-        checkBox.setAttribute('src', '/images/check-square.svg')
+        checkBox.setAttribute('src', 'images/check-square.svg')
         checkBox.style.filter = 'invert(1)';
         checkBox.style.cursor = 'pointer';
         listItem.appendChild(checkBox);
@@ -25,7 +25,7 @@ button.addEventListener("click", () => {
         listText.innerHTML = input.value;
         listItem.appendChild(listText);
         // deleteButton.createElement('img');
-        deleteButton.setAttribute('src', '/images/x.svg')
+        deleteButton.setAttribute('src', 'images/x.svg')
         deleteButton.style.filter = 'invert(1)';
         deleteButton.style.cursor = 'pointer';
         listItem.appendChild(deleteButton);
@@ -46,12 +46,12 @@ button.addEventListener("click", () => {
 
         // change checkbox on hover
         checkBox.addEventListener('mouseover', () => {
-            checkBox.setAttribute('src', '/images/check-square-fill.svg');  
+            checkBox.setAttribute('src', 'images/check-square-fill.svg');  
         });
 
         // change checkbox on hover off
         checkBox.addEventListener('mouseout', () => {
-            checkBox.setAttribute('src', '/images/check-square.svg');  
+            checkBox.setAttribute('src', 'images/check-square.svg');  
         });
 
         // FOR CONSOLE: push items to an array to view
