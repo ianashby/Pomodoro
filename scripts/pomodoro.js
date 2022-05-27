@@ -93,4 +93,3 @@ startButton.addEventListener('click', () => {
       }, 1000);
 })
 
-// timer: https://css-tricks.com/how-to-create-an-animated-countdown-timer-with-html-css-and-javascript/
